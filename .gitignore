@@ -1,82 +1,21 @@
-﻿# ----------------------------
-# Python cache & compiled files
-# ----------------------------
+# Environment files
+openai.env
+.env
+
+# Uploaded resumes
+uploads/
+
+# Python cache files
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# ----------------------------
-# Environment & API keys
-# ----------------------------
-*.env
-.env
-openai.env
-
-# ----------------------------
 # Virtual environments
-# ----------------------------
 venv/
-env/
-.venv/
-.env/
+axe/
 
-# ----------------------------
-# Jupyter & IPython stuff
-# ----------------------------
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
-# ----------------------------
-# Logs & temporary files
-# ----------------------------
-*.log
-logs/
-tmp/
-temp/
-
-# ----------------------------
-# Database & migrations
-# ----------------------------
-*.sqlite3
-*.db
-migrations/
-
-# ----------------------------
-# Flask specific
-# ----------------------------
-instance/
-*.py[cod]
-
-# ----------------------------
-# Model files & datasets
-# ----------------------------
-*.h5
-*.pkl
-*.joblib
-*.pt
-*.onnx
-*.ckpt
-*.tflite
-dataset/
-datasets/
-models/
-
-# ----------------------------
-# IDE & editor files
-# ----------------------------
+# IDE and OS files
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# ----------------------------
-# OS generated files
-# ----------------------------
 .DS_Store
 Thumbs.db
 
-openai.env
-openai.env
-openai.env
-openai.env
